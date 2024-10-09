@@ -40,10 +40,24 @@ body {
 }
 
 .galleryText {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 78.5%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.galImg {
+  background-position: center;
+  background-blend-mode: color-dodge;
+  border-radius: 30px;
+  backdrop-filter: blur(21.899999618530273px);
 
+}
+
+.rightImg {
+  transform: perspective(400px) rotateY(45deg);
+}
+
+.leftImg {
+  transform: perspective(400px) rotateY(-45deg);
+}
