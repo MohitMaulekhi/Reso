@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +24,26 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+.about {
+  background-image: url("../../public/static/images/AboutUsBg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.gallery {
+  background-image: url("../../public/static/images/GalleryMoon.png");
+  background-repeat: no-repeat;
+  background-position: 7.5vw 1vh;
+}
+
+.galleryText {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 78.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
